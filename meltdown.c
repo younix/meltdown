@@ -14,23 +14,25 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
-#include <unistd.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdint.h>
-#include <string.h>
-#include <signal.h>
-#include <err.h>
-#include <setjmp.h>
-#include <unistd.h>
+
 #include <sys/param.h>
 #include <sys/sysctl.h>
-#include <sched.h>
+
 #include <ctype.h>
-#include <paths.h>
-#include <nlist.h>
+#include <err.h>
 #include <fcntl.h>
 #include <limits.h>
+#include <nlist.h>
+#include <paths.h>
+#include <sched.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <unistd.h>
 
 #include "util.h"
 
