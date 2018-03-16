@@ -525,7 +525,6 @@ main(int argc, char **argv)
 		} else {
 			printf("%s is not vulnerable to %s", what,
 			    vname[vulns[v]]);
-			ret = 0;
 		}
 		if (identify == 2) {
 			/* System description on every line */
